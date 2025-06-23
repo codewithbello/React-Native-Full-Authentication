@@ -1,0 +1,19 @@
+1. Create a new React Native project:
+    
+   npx @react-native-community/cli init myapp
+   cd myapp
+
+2. Install Required Packages:
+   
+   npm install react-native-onboarding-swiper
+   npm install @react-navigation/native @react-navigation/native-stack
+   npm install react-native-screens react-native-safe-area-context react-native-gesture-handler react-native-reanimated react-native-vector-icons
+
+3. File Structure Example:
+   /screens
+    └── OnboardingScreen.js
+    └── SignInScreen.js
+    └── SignUpScreen.js
+
+    /App.js
+    /routes/AuthStack.js
